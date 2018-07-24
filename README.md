@@ -23,9 +23,9 @@ ImageID,Source,LabelName,Confidence,XMin,XMax,YMin,YMax,IsOccluded,IsTruncated,I
 0000c64e1253d68f,freeform,/m/0k4j,1,0.481498,0.904376,0.232029,0.489017,1,0,0,0,0
 ```
 
-XMin, XMax, YMin, YMax are tbe coordinates of the bounding box, in normalized image coordinates. XMin is in [0,1], where 0 is the leftmost pixel, and 1 is the rightmost pixel in the image. Y coordinates go from the top pixel (0) to the bottom pixel (1).
+XMin, XMax, YMin, YMax are the coordinates of the bounding box, in normalized image coordinates. XMin is in [0,1], where 0 is the leftmost pixel, and 1 is the rightmost pixel in the image. Y coordinates go from the top pixel (0) to the bottom pixel (1).
 
-This particular format presents a challenge when converting to VOC PASCAL xml since bounding box is represented in VOC is represented by pixel value. No particular file contains the actual dimensions of the images, so conversion will require to download all images, register it's width and height and then executing the conversion of the normalized values into pixel positions.
+This particular format presents a challenge when converting to VOC PASCAL xml since bounding box in VOC is represented by pixel value. No particular file contains the actual dimensions of the images, so conversion will require to download all images, register it's width and height and then executing the conversion of the normalized values into pixel positions.
 
 Considering that the Open Images Dataset is massive, this can take a while. Therefore making more difficult to use Open Images dataset in frameworks that expect VOC or COCO format.
 
