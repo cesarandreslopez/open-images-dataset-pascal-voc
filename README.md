@@ -6,7 +6,7 @@ This page aims to provide the download instructions for OpenImages V4 and it's a
 
 Please visit the [project page](https://storage.googleapis.com/openimages/web/index.html) for more details on the dataset .
 
-# The Problem this repository is trying to resolve
+## The Problem this repository is trying to resolve
 
 Open Images annotation file comes in the following format:
 
