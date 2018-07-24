@@ -27,7 +27,7 @@ XMin, XMax, YMin, YMax are the coordinates of the bounding box, in normalized im
 
 This particular format presents a challenge when converting to VOC PASCAL xml since bounding box in VOC is represented by pixel value. No particular file contains the actual dimensions of the images, so conversion will require to download all images, register it's width and height and then executing the conversion of the normalized values into pixel positions.
 
-Considering that the Open Images Dataset is massive, this can take a while. Therefore making more difficult to use Open Images dataset in frameworks that expect VOC or COCO format.
+Considering that the Open Images Dataset is massive, this can take a while; making difficult to use Open Images dataset in frameworks that expect VOC or COCO format.
 
 # Download Images and VOC PASCAL annotations
 
