@@ -57,9 +57,9 @@ The target_dir can be a local directory or a AWS S3 cloud storage bucket.
 
 Please keep in mind that this VOC annotation data will only work with the rescaled images produced by CVDF. If rescaling is different from CVDF hosted version, the scale for the bounding boxes will be wrong.
 
-  * wget http://openimagesvoc.datoscientific.com/open_imagesv4_train_annotations.tar.gz (198MB compressed, 5.9GB uncompressed, 1,743,042 xml files) 
-  * wget http://openimagesvoc.datoscientific.com/open_imagesv4_val_annotations.tar.gz (4.9MB compressed, 165MB uncompressed, 41,620 xml files)  
-  * wget http://openimagesvoc.datoscientific.com/open_imagesv4_test_annotations.tar.gz (15MB compressed, 499MB uncompressed, 125,436 xml files)  
+  * wget https://openimagesvoc.datoscientific.com/open_imagesv4_train_annotations.tar.gz (198MB compressed, 5.9GB uncompressed, 1,743,042 xml files) 
+  * wget https://openimagesvoc.datoscientific.com/open_imagesv4_val_annotations.tar.gz (4.9MB compressed, 165MB uncompressed, 41,620 xml files)  
+  * wget https://openimagesvoc.datoscientific.com/open_imagesv4_test_annotations.tar.gz (15MB compressed, 499MB uncompressed, 125,436 xml files)  
 
 # How I generated this data
 
